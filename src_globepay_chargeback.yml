@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: GLOBEPAY_CHARGEBACK
+    database: my-project-cc-20220626
+    schema: dbt_ccastelloni
+    tables:
+      - name: GLOBEPAY_CHARGEBACK
